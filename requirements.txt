@@ -1,0 +1,8 @@
+Django
+Werkzeug
+cos-python-sdk-v5
+django_otp
+qrcode
+django-redis
+pymysql
+gunicorn[gevent]
