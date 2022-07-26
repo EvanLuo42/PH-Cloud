@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-26 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: file/forms.py:13 file/forms.py:64
+msgid "Club ID can not be empty."
+msgstr ""
+
+#: file/forms.py:22
+msgid "File name can not be empty."
+msgstr ""
+
+#: file/forms.py:23
+msgid "File name is too short."
+msgstr ""
+
+#: file/forms.py:24
+msgid "File name is too long."
+msgstr ""
+
+#: file/forms.py:32
+msgid "File can not be empty."
+msgstr ""
+
+#: file/forms.py:39 file/forms.py:71 file/views.py:46
+msgid "Club is not existed"
+msgstr ""
+
+#: file/forms.py:48
+msgid "File ID can not be empty."
+msgstr ""
+
+#: file/forms.py:55
+msgid "File is not existed"
+msgstr ""
+
+#: file/models.py:6
+msgid "File ID"
+msgstr ""
+
+#: file/models.py:7 user/models.py:59
+msgid "Club ID"
+msgstr ""
+
+#: file/models.py:8
+msgid "Created at"
+msgstr ""
+
+#: file/models.py:9
+msgid "File"
+msgstr ""
+
+#: file/models.py:12
+msgid "File Info"
+msgstr ""
+
+#: file/views.py:30 file/views.py:57 file/views.py:70 file/views.py:84
+#: user/views.py:36 user/views.py:63 user/views.py:81 user/views.py:103
+#: user/views.py:115
+msgid "Invalid Request"
+msgstr ""
+
+#: file/views.py:38 user/views.py:106
+msgid "You have to login first"
+msgstr ""
+
+#: file/views.py:52
+msgid "Upload Successful"
+msgstr ""
+
+#: user/forms.py:15 user/forms.py:98
+msgid "Email can not be empty."
+msgstr ""
+
+#: user/forms.py:16 user/forms.py:54 user/forms.py:99
+msgid "Email is too long."
+msgstr ""
+
+#: user/forms.py:17 user/forms.py:55 user/forms.py:100
+msgid "Email is illegal or not a Pinghe email"
+msgstr ""
+
+#: user/forms.py:24 user/forms.py:44
+msgid "Password can not be empty."
+msgstr ""
+
+#: user/forms.py:35 user/forms.py:53
+msgid "Username can not be empty."
+msgstr ""
+
+#: user/forms.py:36
+msgid "Username is too short."
+msgstr ""
+
+#: user/forms.py:37
+msgid "Username is too long."
+msgstr ""
+
+#: user/forms.py:62
+msgid "Captcha can not be empty."
+msgstr ""
+
+#: user/forms.py:69 user/forms.py:84
+msgid "User is already exist."
+msgstr ""
+
+#: user/forms.py:76
+msgid "Email is already exist."
+msgstr ""
+
+#: user/forms.py:78
+msgid "Email was not signed up."
+msgstr ""
+
+#: user/forms.py:89
+msgid "Captcha is not correct."
+msgstr ""
+
+#: user/models.py:42
+msgid "User ID"
+msgstr ""
+
+#: user/models.py:43
+msgid "Username"
+msgstr ""
+
+#: user/models.py:44
+msgid "Is a stuff"
+msgstr ""
+
+#: user/models.py:45
+msgid "Is a superuser"
+msgstr ""
+
+#: user/models.py:46 user/models.py:61
+msgid "Email"
+msgstr ""
+
+#: user/models.py:54
+msgid "User"
+msgstr ""
+
+#: user/models.py:60
+msgid "Club Name"
+msgstr ""
+
+#: user/views.py:48
+msgid "Invalid Credentials"
+msgstr ""
+
+#: user/views.py:52
+msgid "You can not login as a superuser"
+msgstr ""
+
+#: user/views.py:57
+msgid "Login Successful"
+msgstr ""
+
+#: user/views.py:76
+msgid "Registration Successful"
+msgstr ""
+
+#: user/views.py:92
+msgid "Desert Captcha"
+msgstr ""
+
+#: user/views.py:98
+msgid "Captcha Sent"
+msgstr ""
