@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from file.models import FileInfo
+
+admin.site.register(FileInfo)

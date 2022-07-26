@@ -15,7 +15,7 @@ class UserManager(BaseUserManager):
         if not email:
             raise ValueError('The given email must be set')
 
-        user = self.model(user_name=username, email=email, **kwargs)
+        user = self.model(username=username, email=email, **kwargs)
         user.set_password(password)
         user.save(using=self._db)
         return user
@@ -59,3 +59,7 @@ class Club(models.Model):
     club_id = models.BigAutoField(primary_key=True, verbose_name=_('Club ID'))
     club_name = models.CharField(max_length=30, unique=True, verbose_name=_('Club Name'))
     owner_email = models.EmailField(unique=True, verbose_name=_('Email'))
+
+    class Meta:
+        verbose_name = _('Club')
+        verbose_name_plural = verbose_name

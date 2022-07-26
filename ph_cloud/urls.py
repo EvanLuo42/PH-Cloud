@@ -19,11 +19,22 @@ from django.views.static import serve
 
 from django_otp.admin import OTPAdminSite
 
+import file.views
+import user.views
 from ph_cloud import settings
 
 admin.site.__class__ = OTPAdminSite
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('login/', user.views.login_view),
+    path('register/', user.views.register_view),
+    path('captcha/', user.views.send_captcha_view),
+    path('user/get/', user.views.get_user_view),
+    path('club/', user.views.get_all_clubs),
+    path('file/upload/', file.views.upload_file_view),
+    path('file/get/', file.views.get_file_view),
+    path('file/download/', file.views.download_file_view),
+    path('files/get/', file.views.get_all_file_under_club),
     re_path('static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
